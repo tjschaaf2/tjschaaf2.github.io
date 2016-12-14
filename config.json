@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "TJ Schaaf"
+  },
+  "text": {
+    "more": "This network illustrates the relationships between actors during the summer of 1605. The nodes in blue are those who will end up carrying out the assassination attempt on King James, the red nodes are Jesuits within the Catholic Church, and the green nodes are members of the House of Lords. At this point, Francis Tresham hadn’t yet been introduced into the plot, so that is why he does not share an edge with the rest of the conspirators. After the plot had been foiled, government immediately went to blame the Jesuit leaders. A warrant was issued for Garnet’s arrest on 15 November, yet the search party for him was not sent out until 5 days later.  The reason for the delay was most likely because the Lord’s Privy Council realized that they did not have much of a case against Garnet, and so, in order to prosecute him, they would need to eliminate the conspirators who could help free the father. When Garnet was finally arrested and brought to trial, Robert Cecil and the Privy Council had eliminated all the nodes with which Garnet was connected; in Figure 2 this would be represented by removing the all the edges between blue nodes and Father Garnet. By removing these edges, the graph density decreases from 0.727 to 0.264. This decrease shows how the network has become weaker; the effect on Father Garnet is that he has no outside actors to rely on, and ends up being killed. Robert Cecil, a member of the Privy Council and Secretary of State under both Queen Elizabeth I and King James I, is the subject of a third conspiracy surrounding the Gunpowder Plot.",
+    "intro": "Network of the Catholic Connections found in the Gunpowder Plot",
+    "title": "Catholic Connections"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": ""
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
